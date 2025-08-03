@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYTES BY ARTI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        header img {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #00e5ff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .photo-section img {
+            width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .gallery iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .subscribe {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .subscribe a {
+            display: inline-block;
+            background: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .tool-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .tool-card:hover {
+            transform: scale(1.05);
+            background: rgba(0, 255, 255, 0.2);
+        }
+
+        .tool-card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Orange Purple and Pink Modern Tech Logo.png" alt="BYTES BY ARTI Logo">
+        <h1>BYTES BY ARTI</h1>
+        <p>Empowering Minds with Coding and Education</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#coding">Coding</a>
+        <a href="#education">Education</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#ai-tools">AI Tools</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to BYTES BY ARTI</h2>
+            <p>This platform is built for students, coders, and tech lovers to grow, learn, and succeed in the digital world.</p>
+        </section>
+
+        <section id="about" class="photo-section">
+            <h2>About the Founder</h2>
+            <img src="jaipur trip.jpg" alt="Arti">
+            <p style="text-align:center; margin-top:1rem;">
+                Hi, I'm Arti — tech educator, coder, and the creator of BYTES BY ARTI. I'm currently pursuing B.Tech from Stani Memorial College of Engineering and Technology, Jaipur. <br>
+                I have experience in DBMS, Java, SQL, and front-end development. <br>
+                I love exploring and teaching with AI tools, and on this site, I also share the best free AI tools for students and creators. Let's make learning fun and powerful!
+            </p>
+        </section>
+
+        <section id="coding">
+            <h2>Coding</h2>
+            <p>Master programming languages like C, C++, Python, JavaScript, and more. Build DSA skills, dive into projects, and grow as a developer. <br>
+                Best knowledge resources and tutorials available here for DBMS, Java, and SQL. Stay tuned for regular updates, notes, and coding tricks!</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                Learn core engineering subjects with easy-to-understand tutorials and real-life examples. <br>
+                I am currently pursuing B.Tech from <strong>STANI MEMORIAL COLLEGE OF ENGINEERING AND TECHNOLOGY, JAIPUR</strong>. <br>
+                Get subject-wise guidance, notes, and tips for success in your engineering journey.
+            </p>
+        </section>
+
+        <section id="gallery">
+            <h2>YouTube Shorts & Video Gallery</h2>
+            <p>Catch the latest tech short from the official BYTES BY ARTI YouTube channel:</p>
+            <iframe src="https://www.youtube.com/embed/PHe_6cM5ka0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/N6kBRWqsP_E?si=ryQEXf3BWc_pr1I_" title="YouTube video player" allowfullscreen></iframe>
+            <div class="subscribe">
+                <a href="https://www.youtube.com/@BYTESBYARTI" target="_blank">Subscribe on YouTube</a>
+            </div>
+        </section>
+
+        <section id="ai-tools">
+            <h2>Free AI Tools for Students & Creators</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="chatgpt-00000.webp" alt="ChatGPT">
+                    <h4>ChatGPT</h4>
+                    <p>AI assistant for coding, writing, and productivity.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://img.icons8.com/color/48/000000/canva.png" alt="Canva">
+                    <h4>Canva</h4>
+                    <p>Free design tool for YouTube thumbnails, posters & more.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/microphone.png" alt="ElevenLabs">
+                    <h4>ElevenLabs</h4>
+                    <p>Create realistic AI voiceovers for your videos.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://img.icons8.com/ios-glyphs/50/ffffff/video-editing.png" alt="CapCut">
+                    <h4>CapCut</h4>
+                    <p>Easy-to-use video editor with templates and effects.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BYTES BY ARTI | Created with ❤️ by Arti</p>
+    </footer>
+</body>
+
+</html>
